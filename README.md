@@ -4,7 +4,7 @@
 
 ![0](2022-11-10-22-58-00.png)
 
-材料：DICOMファイル（2−6シリーズ）
+材料：DICOMファイル
 
 道具：MRtrix3、FSL、tilemake.sh
 
