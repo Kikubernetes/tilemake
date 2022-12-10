@@ -19,7 +19,7 @@
 
 #### mrviewのscreencaptureを使ってスライドに載せたい画像のpngファイルを作る
 
-1. DICOM画像の場合、NiFTIに変換しておく（dcm2niixなどを使う）
+1. DICOM画像の場合、NIfTIに変換しておく（[dcm2niix](https://github.com/rordenlab/MRIcroGL/releases)などを使う）
 1. mrviewで開く
 1. view→Toggle all annotationsで画面の文字やcrosshairを消す
 1. 必要に応じて画像の調整（intensityや向きなど）
