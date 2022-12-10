@@ -1,6 +1,6 @@
 # tilemake
 
-## DICOM（or NiFTI）画像を使ってPowerpoint スライドを作る
+## DICOM（or NIfTI）画像を使ってPowerpoint スライドを作る
 
 ### DICOM形式、もしくはNIfTI形式の画像しか手元になくても、図のようなタイル状の画像を作ることができます
 
@@ -13,7 +13,7 @@
 * インストール方法はこちら（大変有名かつ有用なソフトですが、そこそこ大きいのでこのためだけにインストールするのはよく考えて・・・）
 
   * MRtrix3　<https://github.com/MRtrix3/homebrew-mrtrix3>
-  * FSL <https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FslInstallation>
+  * FSL      <https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FslInstallation>
 
 ### 下ごしらえ
 
@@ -65,4 +65,5 @@ bash tilemake.sh　#実行
 
 PowerPointには複数画像を１枚ずつインポートするフォトアルバム機能があるが、Mac版にはない場合がある。その場合、LibreOfficeを使うのが楽。(こちら <https://ja.libreoffice.org> からダウンロードできる)
 インストール後、新規ファイルを開いて挿入＞メディア＞フォトアルバムを選ぶと１枚ずつ挿入できる。その後.pptx形式で保存すればPowerPointにスライドごとコピペできる。
-![4](2022-11-10-21-13-58.png)
+
+<img src="2022-11-10-21-13-58.png" width="500">
