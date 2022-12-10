@@ -2,7 +2,7 @@
 
 ## DICOM（or NiFTI）画像を使ってPowerpoint スライドを作る
 
-### DICOM形式、もしくはNIfTI形式の画像しか手元になくても、図のようなタイル状の画像を作ることができます。
+### DICOM形式、もしくはNIfTI形式の画像しか手元になくても、図のようなタイル状の画像を作ることができます
 
 ![0](2022-11-10-22-58-00.png)
 
@@ -10,7 +10,7 @@
 
 道具：MRtrix3、FSL、tilemake.sh
 
-* インストール方法はこちら（大変有名かつ有用なソフトですが、そこそこ大きいのでこのためだけにインストールするのはよく考えたほうがいいです）
+* インストール方法はこちら（大変有名かつ有用なソフトですが、そこそこ大きいのでこのためだけにインストールするのはよく考えて・・・）
 
   * MRtrix3　<https://github.com/MRtrix3/homebrew-mrtrix3>
   * FSL <https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FslInstallation>
