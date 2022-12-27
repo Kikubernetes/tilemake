@@ -24,29 +24,31 @@
 1. view→Toggle all annotationsで画面の文字やcrosshairを消す
 1. 必要に応じて画像の調整（intensityや向きなど）
 1. Tools→Screen captureを選ぶ
-
-<img src="2022-11-10-21-17-12.png" width="300"><img src="2022-11-10-21-17-51.png" width="200"><img src="2022-11-11%201.24.44.png" width="400">
-
-1. 横断像を同期してページングする（読影ビューアっぽい見た目にする）には右上図のように設定する。
+![](2022-12-27-14-38-35.png)
+2. 横断像を同期してページングする（読影ビューアっぽい見た目にする）には右上図のように設定する。
     1. 画像をスクロールして開始したい位置を表示する
     2. Translateの右端のボックス（Z軸）を終了位置に合わせた数値にする。よくわからなければ図と同じ数値にして後から調整。
     3. CaptureのStart Indexは0、Frames は欲しい枚数
-    4. OutputのPrefixで画像の名前を決める（T2、DWIなど簡単な方がgood）
+    4. OutputのPrefixで画像の名前を決める（T2、DWIなど簡単な方が良い）
     5. 出力先のディレクトリを選ぶ
     6. 設定したら左下の三角ボタンでテストプレイを行い調整する
     7. ⅰ-ⅲの条件を揃えればスライス厚に関わらず位置を同期することができる
-1. 録音ボタン（赤丸）でpngとして保存される。
-1. スライドに載せたい画像を揃えたら下ごしらえ完了。
+3. 録音ボタン（赤丸）でpngとして保存される。
+4. スライドに載せたい画像を揃えたら下ごしらえ完了。
 
 ### 調理
 
 #### tilemake.shを使ってタイル状に並んだpngファイルを作る
 
-まずtilemake.shをダウンロードする。右クリックから「リンク先のファイルをダウンロード」を選ぶ。
+まずこのレポジトリをクローンする(どこでも良いが、homeディレクトリにクローンしたとする)。
+```
+cd ~
+git clone https://github.com/Kikubernetes/tilemake.git
+```
 「下ごしらえ」したpngファイルを保存したディレクトリを~/imgdirとすると
 
 ```bash
-cp ~/Downloads/tilemake.sh ~/imgdir　#imgdirにコピー
+cp ~/tilemake/tilemake.sh ~/imgdir　#imgdirにコピー
 cd ~/imgdir
 chmod 755 tilemake.sh　#実行可能にする
 bash tilemake.sh　#実行
