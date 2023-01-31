@@ -10,10 +10,10 @@
 
 道具：MRtrix3、FSL、tilemake.sh
 
-* インストール方法はこちら（大変有名かつ有用なソフトですが、サイズは大きいのでご注意ください）
+* インストール方法はこちら
 
-  * MRtrix3　<https://github.com/MRtrix3/homebrew-mrtrix3>
-  * FSL      <https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FslInstallation>
+  * MRtrix3　<https://github.com/MRtrix3/mrtrix3> （100MB前後）
+  * FSL      <https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FslInstallation>　（13GB前後）
 
 ### 下ごしらえ
 
